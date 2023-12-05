@@ -1,0 +1,111 @@
+/* Input Field Styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-text-fill-color: white;
+	transition: background-color 5000s ease-in-out 0s;
+	font-family: "Inter-Regular";
+	caret-color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+	cursor: pointer;
+	margin-right: 10px;
+	filter: invert(0.5);
+	width: 22px;
+	height: 22px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+	cursor: pointer;
+	margin-right: 10px;
+	filter: invert(0.5);
+	width: 22px;
+	height: 22px;
+}
+
+input:focus {
+	outline: none;
+	border-color: #cda950;
+	box-shadow: 0 0 3px #cda950;
+	-moz-box-shadow: 0 0 3px #cda950;
+	-webkit-box-shadow: 0 0 3px #cda950;
+}
+
+/* textarea Field Styles */
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-text-fill-color: white;
+	transition: background-color 5000s ease-in-out 0s;
+	font-family: "Inter-Regular";
+}
+
+textarea:focus {
+	resize: none;
+	outline: none;
+	border-color: #cda950;
+	box-shadow: 0 0 3px #cda950;
+	-moz-box-shadow: 0 0 3px #cda950;
+	-webkit-box-shadow: 0 0 3px #cda950;
+}
+
+/* Select DropDown Styles */
+.css-1wpejji-MuiSvgIcon-root-MuiSelect-icon,
+.css-1bl69p4-MuiSvgIcon-root-MuiSelect-icon {
+	color: #85878d !important;
+}
+
+.css-uncf2l {
+	color: #85878d !important;
+}
+
+.css-p02csv {
+	color: #85878d !important;
+}
+
+.css-r8u8y9 {
+	height: 100px;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+	height: 100px;
+}
+
+.mantine-RichTextEditor-root {
+	background-color: #1b1b23;
+	border-radius: 8px;
+	border: none;
+}
+.mantine-RichTextEditor-toolbar {
+	background-color: #1b1b23;
+    border-color: #85878d !important;
+	top: -1px;
+}
+.mantine-RichTextEditor-control {
+	background-color: #1b1b23;
+	color: #85878d;
+	border: none;
+}
+.quill {
+	color: white;
+}
+.mantine-1qycoz3 ol, .mantine-1qycoz3 ul {
+	list-style: disc
+}
+.ql-tooltip, .ql-editing {
+	left: 0px !important;
+}
+.mantine-1uiuxz1:hover, .mantine-h9r4bm:hover {
+	background-color: #1b1b23;
+}

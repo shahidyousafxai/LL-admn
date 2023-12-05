@@ -1,0 +1,27 @@
+.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.css-fc61g3-MuiButtonBase-root-MuiMenuItem-root {
+  color: white;
+  bottom: 16px;
+  background-color: #1b1b23;
+}
+
+.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.Mui-selected.css-sz8la9 {
+  color: white;
+  bottom: 10px;
+  background-color: #1b1b23;
+}
+
+.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.css-sz8la9 {
+  color: white;
+  bottom: 10px;
+  background-color: #1b1b23;
+}
+.MuiPaper-root {
+  padding: 0 !important;
+}
+.MuiPaper-root ul li {
+  background-color: #1b1b23 !important;
+  color: white;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  padding-top: 0px !important;
+}

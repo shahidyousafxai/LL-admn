@@ -1,0 +1,106 @@
+.topbar {
+    height: 48px;
+    align-items: center;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.topbarbox {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
+
+.appbar {
+    margin-top: 55px !important;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks {
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions {
+    gap: 10px;
+}
+
+.mobileLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 5px;
+}
+
+.mobilenavLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navButtons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.drawerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.drawerMain {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* NavLink Css */
+.link {
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: '#ADADB0';
+}
+
+.innerLink {
+    text-decoration: none;
+    color: '#ADADB0';
+}
+
+/* Footer CSS*/
+.footerNavlink {
+    text-transform: uppercase;
+}
+
+.footerdivier {
+    width: 100%;
+    margin-top: 60px;
+    background-color: #85878D !important;
+}
+
+.linkstyle {
+    text-decoration: none;
+}
+
+.sociallinkstyle {
+    color: '#FFFF' !important;
+    opacity: 0.6 !important;
+}

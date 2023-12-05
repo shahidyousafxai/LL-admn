@@ -1,0 +1,15 @@
+.textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  border-color: transparent;
+  width: 100%;
+}
+
+.textarea:focus {
+  outline: none !important;
+  border: none !important;
+  border-color: transparent !important;
+  -webkit-box-shadow: none !important;
+}

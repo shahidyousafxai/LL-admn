@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Inter-Light';
+    /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Light.otf');
+    /* Safari, Android, iOS */
+    src: url('./fonts/Inter-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Regular.otf');
+    /* Safari, Android, iOS */
+    src: url('./fonts/Inter-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Medium.otf');
+    /* Safari, Android, iOS */
+    src: url('./fonts/Inter-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    /* IE9 Compat Modes */
+    src: url('./fonts/Inter-Bold.otf');
+    /* Safari, Android, iOS */
+    src: url('./fonts/Inter-Bold.otf') format('truetype');
+}
